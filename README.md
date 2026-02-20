@@ -1,6 +1,6 @@
-# Spanda Architectural Framework – Papers Trilogy
+# Spanda Architectural Framework – Papers Series
 
-This repository contains the three foundational architectural papers underlying the **Spanda Engine** simulation framework.
+This repository contains the foundational architectural papers underlying the **Spanda Engine** simulation framework.
 
 These documents define a constraint-grounded approach to artificial agents that are:
 
@@ -8,8 +8,9 @@ These documents define a constraint-grounded approach to artificial agents that 
 - **Structurally bounded**
 - **Temporally persistent**
 - **Field-coupled but stability-aware**
+- **Governance-closed under deviation**
 
-The trilogy formalizes dimensional inference, stratified memory persistence, and multi-agent reference dynamics as **architectural principles**, not philosophical claims.
+The series formalizes dimensional inference, stratified memory persistence, multi-agent reference dynamics, and drift governance as **architectural principles**, not philosophical claims.
 
 
 
@@ -19,19 +20,22 @@ Spanda is built around a single design commitment:
 
 **Artificial agents must infer only what their constraint surfaces justify.**
 
-From this foundation, the trilogy develops:
+From this foundation, the series develops:
 
 1. Constraint-grounded dimensional inference  
 2. Stratified time-scaled memory architecture  
 3. Reference-shift field dynamics in multi-agent systems  
+4. Drift detection and governance closure (constraint deviation)  
 
 Each paper stands independently, but together they define the structural logic of the Spanda Engine.
+
+Papers 1–3 define what agents may infer, how they persist, and how they destabilize collectively; Paper 4 defines how deviation is detected and governed before collapse propagates.
 
 
 
 ## Papers
 
-### Paper 1  
+### Paper 1
 **Constraint-Grounded Dimensional Inference in Artificial Agents**  
 Zenodo: https://zenodo.org/records/18700957  
 
@@ -45,12 +49,11 @@ Key contributions:
 
 
 
-### Paper 2  
+### Paper 2
 **Stratified Memory and Time-Scaled Persistence in Artificial Agents**  
 Zenodo: https://zenodo.org/records/18701137  
 
 Introduces a three-tier memory architecture:
-
 - Short-term volatile state  
 - Intermediate compressed regularity  
 - Structural priors  
@@ -63,7 +66,7 @@ Key contributions:
 
 
 
-### Paper 3  
+### Paper 3
 **Reference Shift and Constraint-Field Dynamics in Multi-Agent Systems**  
 Zenodo: https://zenodo.org/records/18701215  
 
@@ -74,16 +77,31 @@ Key contributions:
 - Concentration density over mean activation  
 - Asymmetric amplification modeling  
 - Dissipation capacity and stability boundaries  
-- Two cascade regimes (amplification-dominant vs inhibition-dominant)
+- Two cascade regimes (amplification-dominant vs inhibition-dominant)  
 
 Collective instability is framed as a structural phase transition within shared constraint fields.
 
 
 
+### Paper 4
+**Constraint Deviation Engine: Drift Detection and Governance in Stratified Agent Architectures**  
+Zenodo (DOI): https://doi.org/10.5281/zenodo.18717238  
+
+Introduces the governance closure mechanism for the series: drift is detected as enforceable constraint deviation rather than as sentiment labels.
+
+Key contributions:
+- Multi-layer deviation vectors over interaction-derived signals  
+- Scope-stratified baselines (global, per-agent, per-task, per-scene)  
+- Persistence + hysteresis event formation  
+- Replayable rationale artifacts via evidence spans and provenance  
+- Guarded baseline updates with conservative multi-scope gating  
+- Promotion of persistent instability into explicit governance modes  
+
+
+
 ## Design Philosophy
 
-This trilogy is **not**:
-
+This series is **not**:
 - A psychological theory  
 - A sociological theory  
 - A metaphysical claim  
@@ -91,12 +109,12 @@ This trilogy is **not**:
 It is **technical documentation** describing how the Spanda Engine is architected.
 
 The framework prioritizes:
-
 - Bounded inference  
 - Explicit structural limits  
 - Measurable instability criteria  
 - Simulation-ready formalism  
 - Non-omniscient design discipline  
+- Governed drift and auditable deviation events  
 
 All claims are architectural and falsifiable within simulation contexts.
 
@@ -123,7 +141,7 @@ Email: putmanmodel@pm.me
 
 ## Status
 
-Architectural draft series: **v0.2**  
+Architectural paper series: **v0.2**  
 Published via Zenodo with DOI assignment.
 
-Future revisions may expand formalization and simulation validation; the trilogy establishes the architectural foundation.
+Future revisions may expand formalization and simulation validation; this series establishes the architectural foundation.
