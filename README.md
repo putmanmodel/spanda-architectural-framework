@@ -10,8 +10,9 @@ These documents define a constraint-grounded approach to artificial agents that 
 - **Field-coupled but stability-aware**
 - **Governance-closed under deviation**
 - **Reflex-capable under short-horizon salience**
+- **Entry-governed at the representation → memory boundary**
 
-The series formalizes dimensional inference, stratified memory persistence, multi-agent reference dynamics, drift governance, representational standardization, and short-horizon salience as **architectural principles**, not philosophical claims.
+The series formalizes dimensional inference, stratified memory persistence, multi-agent reference dynamics, drift governance, representational standardization, short-horizon salience, and experience entry admissibility as **architectural principles**, not philosophical claims.
 
 ---
 
@@ -29,10 +30,11 @@ From this foundation, the series develops:
 4. Drift detection and governance closure (constraint deviation)  
 5. Modular representation standardization (typed tagging / TVS)  
 6. Short-horizon salience (Reflex Attention)  
+7. Experience entry admissibility (representation → memory boundary contract)  
 
 Each paper stands independently, but together they define the structural logic of the Spanda Engine.
 
-Papers 1–3 define what agents may infer, how they persist, and how they destabilize collectively; Paper 4 defines how deviation is detected and governed before collapse propagates; Papers 5–6 define optional representation and reflex layers that improve interoperability and real-time stability without creating new prerequisites.
+Papers 1–3 define what agents may infer, how they persist, and how they destabilize collectively; Paper 4 defines how deviation is detected and governed before collapse propagates; Papers 5–7 define optional representation, reflex, and entry-contract layers that improve interoperability and real-time stability without creating new prerequisites.
 
 ---
 
@@ -119,7 +121,7 @@ Key contributions:
 
 ### Paper 6
 **Reflex Attention in Stratified Agent Architectures: A Short-Horizon Deviation Flag for Non-Persistent Anomaly Detection**  
-Zenodo: https://zenodo.org/records/18733074
+Zenodo: https://zenodo.org/records/18733074  
 
 Defines an optional short-horizon salience layer that elevates attention without implying persistence or governance escalation.
 
@@ -129,6 +131,21 @@ Key contributions:
 - Non-persistence guarantees (no baseline updates, no memory writes)  
 - Deterministic low-impact routing (clamps, prompts, review band)  
 - Minimal replay/audit logging requirements for falsifiability  
+
+---
+
+### Paper 7
+**Experience Entry Contract (EEC): Admissibility Constraints for Interaction-Derived Memory Records**  
+Zenodo: https://zenodo.org/records/18752181  
+
+Defines a boundary-layer contract governing how interaction-derived events become admissible memory records in stratified agent architectures.
+
+Key contributions:
+- Boundary contract: Interaction-derived Event → EEC → Memory Record  
+- Commit-class admissibility (associative vs canonical)  
+- Promotion invariants (multi-evidence support; no repetition-only promotion)  
+- Failure modes and containment constraints for downstream governance  
+- Provenance and replayability requirements for entry audit  
 
 ---
 
