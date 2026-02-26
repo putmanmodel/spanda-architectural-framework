@@ -146,7 +146,21 @@ Key contributions:
 - Promotion invariants (multi-evidence support; no repetition-only promotion)  
 - Failure modes and containment constraints for downstream governance  
 - Provenance and replayability requirements for entry audit  
+---
 
+### Paper 8
+**Normative Interface Contracts for Stratified Agent Architectures: Conformance Specifications and Demo-Validated Governance Constraints (N01–N30)**
+Zenodo: https://doi.org/10.5281/zenodo.18791708
+
+Defines normative MUST/MUST NOT interface contracts (N01–N30) and binds each requirement to proof/break micro-demos in a deterministic conformance harness.
+
+Key contributions:
+- Normative surface for stratified agent stacks (N01–N30)
+- Demo-validated conformance mapping (proof/break fixtures)
+- Fixed JSONL audit record requirements (decision + evidence + replay metadata)
+- Strict envelope rule (demo-specific assertions carried as key:value evidence tokens)
+- A falsifiable interface-level contract for governance, persistence, reflex non-persistence, and entry control
+  
 ---
 
 ## Design Philosophy
