@@ -160,6 +160,10 @@ Key contributions:
 - Fixed JSONL audit record requirements (decision + evidence + replay metadata)
 - Strict envelope rule (demo-specific assertions carried as key:value evidence tokens)
 - A falsifiable interface-level contract for governance, persistence, reflex non-persistence, and entry control
+
+**Supporting docs (canonical harness):**  
+- Normatives + demo map:  
+  https://github.com/putmanmodel/spanda-normative-harness/tree/main/normatives
   
 ---
 
