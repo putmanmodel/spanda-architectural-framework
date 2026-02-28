@@ -163,6 +163,24 @@ Key contributions:
   
 ---
 
+### Paper 9
+
+**Reference Architecture & Interface Contracts for a Stratified, Constraint-Governed Agent Stack: Harness-Aligned Conformance Specification**
+Zenodo: https://doi.org/10.5281/zenodo.18810122
+
+Consolidates Papers 1–8 into a single “wiring spec” that maps module boundaries and formalizes the cross-module contracts needed for integration and replayable verification.
+
+Key contributions:
+- Reference stack map (EEC → CGDI → Reflex → TVS → CDE → Memory → Field) with explicit boundary rules
+- Canonical interface IDs (EWI / GEI / TVI / MWI / FUI) for seam-level integration
+- Standardized evidence token grammar + decision vocabulary for deterministic validation
+- Publishable enum tables for gate levels and review bands
+- Minimum tool side-effect taxonomy (non-destructive / reversible / destructive) + gating fields
+- Capability lease and rollback artifact proof fields for high-risk actuation governance
+- Temporal semantics for in-band gate assertions + deterministic replay requirements (seed/artifact ID when applicable)
+
+---
+
 ## Design Philosophy
 
 This series is **not**:
